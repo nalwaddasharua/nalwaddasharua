@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:palegreen;
+}
+nav{
+    background: rebeccapurple;
+    height: 80px;
+}
+nav a{
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    background: lightcyan;
+    color:grey;
+    margin: 20px;
+
+}
+nav a:hover{
+    background: green;
+}
+.banner{
+    background: url(images/bag.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    text-align: center;
+    color: white;
+}
+.child1 button{
+    color: red;
+    background-color: aqua;
+}
+.child1 button:hover{
+    background-color: blueviolet;
+}
+.SERVICES{
+    text-align: center;
+    color: palevioletred;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.parent{
+	display: flex;
+	flex-direction: right;
+	height: 400px;
+	width: 100%;
+}
+.child1,.child2,.child3{
+	min-width: 40%;
+	text-align: center;
+	margin: 10px;
+}
+.child2 button{
+    color: red;
+    background-color: aqua;
+}
+.child2 button:hover{
+    background-color: blueviolet;
+}
+.child3 button{
+    color: red;
+    background-color: aqua;
+}
+.child3 button:hover{
+    background-color: blueviolet;
+}
+.footer{
+    background-color: peru;
+    height: 50px;
+
+
+}
+footer p{
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+}
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+h2{
+    color: brown;
+}
+ul{
+    color: black;
+}
+form{
+    color: brown;
+}
+fieldset{
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
